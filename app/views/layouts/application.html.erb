@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apptest</title>
+ <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+ <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+ <%= csrf_meta_tags %>
+ <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+</head>
+
+</head>
+<body>
+<%= render "layouts/header" %>
+<%= yield %>
+<%= render "layouts/footer" %>
+</body>
+</html>

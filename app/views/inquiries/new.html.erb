@@ -1,0 +1,60 @@
+<div class="container text-center">
+	<div class="menu1">
+		<button type="button" class="btn btn-default">Mon appartement</button></br>
+		<div class="questionnaire1 text-center">
+			<%= render 'form', :inquiry => @inquiry %>
+		</div>
+	</div>
+
+	<div class="menu2">
+		<button type="button" class="btn btn-default">Espaces intérieurs</button>
+	</div>
+
+	<div class="row">
+		<div class="questionnaire2 text-center">
+			<button type="button" class="btn btn-default hall1"> Hall d'entrée </button> <button type="button" class="btn btn-default hall2"> Hall à l'étage</button>
+		</div>
+		<div id="hall1-bis">
+			<%= render 'form_int1', :inquiry => @inquiry %>
+		</div>
+	</div>
+</div>
+
+<div id="hall2-bis">
+<%= render 'form_int2', :inquiry => @inquiry %>
+</div>	
+</div>
+
+<div class="menu3">
+	<button type="button" class="btn btn-default">Espaces extérieurs</button>
+</div>
+
+<div class="questionnaire3">
+	<button type="button" class="btn btn-default passage"> Sur une voie de passage </button> <button type="button" class="btn btn-default collectif"> Un équipement collectif </button>
+</div>
+
+<div id="collectif">
+	<button type="button" class="btn btn-default poubelle"> Local à poubelles </button> <button type="button" class="btn btn-default foot"> Terrain de foot </button> 
+	<button type="button" class="btn btn-default enfant"> Espace enfant </button>
+</div>
+
+<div id="poubelle">
+<%= render 'form_ext1', :inquiry => @inquiry %>
+</div>
+
+<div id="foot">
+<%= render 'form_ext1', :inquiry => @inquiry %>
+</div>
+
+<div id="enfant">
+<%= render 'form_ext1', :inquiry => @inquiry %>
+</div>
+
+<div class="passage_bis">
+<%= render 'form_ext2', :inquiry => @inquiry %>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

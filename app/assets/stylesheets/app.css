@@ -1,0 +1,114 @@
+body {
+	background: url(bdt.jpg) no-repeat center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.page-header {
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	padding-top: 20px;
+	margin-top: 0px;
+}
+
+.form-control {
+	text-align: center;
+	margin-right: 100px;
+}
+
+#form {
+	margin-top: 20px;
+	color: #1AD600;
+	font-family: 'Orbitron', sans-serif, 10px;
+	background: rgba(0,0,0,0.5);
+
+}
+
+.btn {
+	color: green;
+	font-family: 'Orbitron', sans-serif, 10px;
+
+}
+
+#retour {
+	display: none;
+}
+
+#Menus {
+	margin-top: 170px;
+}
+
+.menu1 {
+	margin-top: 20px;
+}
+
+.menu2 {
+	margin-top: 20px;
+}
+
+.menu3 {
+	margin-top: 20px;
+}
+
+.questionnaire1 {
+	display: none;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.questionnaire2 {
+	display: none;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.intro2 {
+	color: green;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#hall1-bis {
+	display: none;
+}
+
+#hall2-bis {
+	display: none;
+}
+
+.questionnaire3 {
+	display: none;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#collectif {
+	display: none;
+}
+
+#poubelle {
+	display: none;
+}
+
+#foot {
+	display: none;
+}
+
+#enfant {
+	display: none;
+}
+
+.passage_bis {
+	display: none;
+}
+
+/* footer */
+
+.footer {
+	margin-top: 260px;
+	color: #1AD600;
+	font-family: 'Orbitron', sans-serif, 10px;
+
+}
