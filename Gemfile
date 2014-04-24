@@ -5,14 +5,14 @@ gem 'rails', '4.0.3'
 gem 'pony', '~> 1.8'
 
 # Use sqlite3 as the database for Active Record
-group :development do
-	gem 'sqlite3'
+group :production do
+  gem 'pg'
+  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 end
 
-group :production do
-	gem 'pg'
-	gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
-    gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+group :development do
+	gem 'sqlite3'
 end
 
 # Use SCSS for stylesheets
