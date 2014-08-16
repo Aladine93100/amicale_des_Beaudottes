@@ -2,22 +2,74 @@ $('document').ready(function() {
 
 	$( '.menu1' ).click(function() {
 		$( '.menu2, .menu3' ).hide( 'slow' )
+		$( '.appartement, #retour' ).show( 'slow' )
+	});
+
+	$( '.serrurerie' ).click(function() {
+		$( '.chauf-vent, .isola, .plomb, .revet, .cable, .balcon' ).hide( 'slow' )
 		$( '.questionnaire1, #retour' ).show( 'slow' )
 	});
+
+	$( '.chauf-vent' ).click(function() {
+		$( '.serrurerie, .isola, .plomb, .revet, .cable, .balcon' ).hide( 'slow' )
+		$( '.questionnaire1, #retour' ).show( 'slow' )
+	});
+
+	$( '.isola' ).click(function() {
+		$( '.chauf-vent, .serrurerie, .plomb, .revet, .cable, .balcon' ).hide( 'slow' )
+		$( '.questionnaire1, #retour' ).show( 'slow' )
+	});
+
+	$( '.plomb' ).click(function() {
+		$( '.chauf-vent, .isola, .serrurerie, .revet, .cable, .balcon' ).hide( 'slow' )
+		$( '.questionnaire1, #retour' ).show( 'slow' )
+	});
+
+	$( '.revet' ).click(function() {
+		$( '.chauf-vent, .isola, .plomb, .serrurerie, .cable, .balcon' ).hide( 'slow' )
+		$( '.questionnaire1, #retour' ).show( 'slow' )
+	});
+
+	$( '.cable' ).click(function() {
+		$( '.chauf-vent, .isola, .plomb, .revet, .serrurerie, .balcon' ).hide( 'slow' )
+		$( '.questionnaire1, #retour' ).show( 'slow' )
+	});
+
+	$( '.balcon' ).click(function() {
+		$( '.chauf-vent, .isola, .plomb, .revet, .cable, .serrurerie' ).hide( 'slow' )
+		$( '.questionnaire1, #retour' ).show( 'slow' )
+	});
+
 
 	$( '.menu2' ).click(function() {
 		$( '.menu1, .menu3' ).hide( 'slow' )
 		$( '.questionnaire2, #retour' ).show( 'slow' )
 	});
 
-	$( '.hall1' ).click(function() {
-		$( '#hall1-bis' ).show( 'slow' )
-		$( '#hall2-bis, .questionnaire2, .menu2' ).hide( 'slow' )
+	$( '.coll1' ).click(function() {
+		$( '#coll1' ).show( 'slow' )
+		$( '#coll2, #coll3, #coll4, #coll5, .questionnaire2, .menu2' ).hide( 'slow' )
 	});
 
-	$( '.hall2' ).click(function() {
-		$( '#hall2-bis' ).show( 'slow' )
-		$( '#hall1-bis, .questionnaire2, .menu2' ).hide( 'slow' )
+	$( '.coll2' ).click(function() {
+		$( '#coll2' ).show( 'slow' )
+		$( '#coll1, #coll3, #coll4, #coll5, .questionnaire2, .menu2' ).hide( 'slow' )
+	});
+
+	$( '.coll3' ).click(function() {
+		$( '#coll3' ).show( 'slow' )
+		$( '#coll2, #coll1, #coll4, #coll5, .questionnaire2, .menu2' ).hide( 'slow' )
+	});
+
+
+	$( '.coll4' ).click(function() {
+		$( '#coll4' ).show( 'slow' )
+		$( '#coll2, #coll3, #coll1, #coll5, .questionnaire2, .menu2' ).hide( 'slow' )
+	});
+
+	$( '.coll5' ).click(function() {
+		$( '#coll5' ).show( 'slow' )
+		$( '#coll2, #coll3, #coll1, #coll4, .questionnaire2, .menu2' ).hide( 'slow' )
 	});
 
 	$( '.menu3' ).click(function() {
@@ -25,28 +77,31 @@ $('document').ready(function() {
 		$( '.questionnaire3, #retour' ).show( 'slow' )
 	});
 
-	$( '.passage' ).click(function() {
-		$( '.passage_bis' ).show( 'slow' )
-		$( '.collectif, .menu3').hide( 'slow' )
+	$( '.immeuble' ).click(function() {
+		$( '#immeuble' ).show( 'slow' )
+		$( '#poubelle, #enfant, #escal-pal, #hall, .menu3').hide( 'slow' )
 	});
 
-	$( '.collectif' ).click(function() {
-		$( '.passage, .menu3' ).hide( 'slow' )
-		$( '#collectif' ).show( 'slow' )
-	});
-
-	$( '.poubelle' ).click(function() {
-		$( '#foot, #enfant' ).hide( 'slow' )
+    $( '.poubelle' ).click(function() {
 		$( '#poubelle' ).show( 'slow' )
+		$( '#immeuble, #enfant, #escal-pal, #hall, .menu3').hide( 'slow' )
 	});
-	$( '.foot' ).click(function() {
-		$( '#poubelle, #enfant' ).hide( 'slow' )
-		$( '#foot' ).show( 'slow' )
-	});
-	$( '.enfant' ).click(function() {
-		$( '#poubelle, #foot' ).hide( 'slow' )
+
+    $( '.enfant' ).click(function() {
 		$( '#enfant' ).show( 'slow' )
+		$( '#poubelle, #immeuble, #escal-pal, #hall, .menu3').hide( 'slow' )
 	});
+
+    $( '.escal-pal' ).click(function() {
+		$( '#escal-pal' ).show( 'slow' )
+		$( '#poubelle, #enfant, #immeuble, #hall, .menu3').hide( 'slow' )
+	});
+
+    $( '.hall' ).click(function() {
+		$( '#hall' ).show( 'slow' )
+		$( '#poubelle, #enfant, #escal-pal, #immeuble, .menu3').hide( 'slow' )
+	});
+
 
 
 	$('#voie').change(function(){

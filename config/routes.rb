@@ -1,4 +1,5 @@
 Apptest::Application.routes.draw do
+  get "photos/create"
   resources :inquiries, :only => [:new, :create] do
   get 'thank_you', :on => :collection
 end

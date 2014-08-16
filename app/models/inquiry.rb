@@ -4,7 +4,7 @@ class Inquiry
   include ActiveModel::Validations
   include ActionView::Helpers::TextHelper
   
-  attr_accessor :name, :firstname, :telephone, :message
+  attr_accessor :name, :firstname, :telephone, :message, :voie
   
   validates :name, 
             :presence => true
@@ -17,7 +17,12 @@ class Inquiry
   
   validates :message,
             :length => { :minimum => 10, :maximum => 1000 }
-  
+
+def create_from(params: 'tmp')
+  inquiry = create(params)
+  #Pony.mail(..., :attachments => {"foo.zip" => File.read(file), "hello.txt" => "hello!"})
+end
+
   def initialize(attributes = {})
     attributes.each do |name, value|
       send("#{name}=", value)
@@ -27,8 +32,8 @@ class Inquiry
   def deliver
     return false unless valid?
     Pony.mail({
-      :from => %("#{name}"),
-      :subject => "Notifications de #{name}, #{firstname}, #{telephone}",
+      :from => %("#{name} #{voie} "),
+      :subject => "Notifications de #{name}, #{firstname}, #{telephone}, #{voie}",
       :body => message,
     })
   end

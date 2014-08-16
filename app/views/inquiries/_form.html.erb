@@ -1,5 +1,6 @@
 <div id="form">
 <%= form_for inquiry do |f| %>
+<input type="hidden" name="logement" id="logement">
   <div>
     <%= f.label :name %><br/>
     <%= f.text_field :name %>
@@ -9,8 +10,8 @@
     <%= f.label :firstname %><br/>
     <%= f.text_field :firstname %>
   </div>
-
-  <select id="voie" class="form-control">
+    
+  <select id="voie" class="form-control" name="voie">
           <option>Voie</option>
           <option>Francis Garnier</option>
           <option>Pérouse</option>

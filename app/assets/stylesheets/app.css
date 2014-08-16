@@ -5,6 +5,10 @@ body {
     background-size: cover;
 }
 
+.appartement {
+	display: none;
+}
+
 .page-header {
 	text-align: center;
 	font-family: 'Orbitron', sans-serif;
@@ -70,11 +74,23 @@ body {
 	font-family: 'Orbitron', sans-serif;
 }
 
-#hall1-bis {
+#coll1 {
 	display: none;
 }
 
-#hall2-bis {
+#coll2 {
+	display: none;
+}
+
+#coll3 {
+	display: none;
+}
+
+#coll4 {
+	display: none;
+}
+
+#coll5 {
 	display: none;
 }
 
@@ -84,15 +100,11 @@ body {
 	margin-right: 100px;
 }
 
-#collectif {
-	display: none;
-}
-
 #poubelle {
 	display: none;
 }
 
-#foot {
+#immeuble {
 	display: none;
 }
 
@@ -100,7 +112,11 @@ body {
 	display: none;
 }
 
-.passage_bis {
+#hall {
+	display: none;
+}
+
+#escal-pal {
 	display: none;
 }
 
