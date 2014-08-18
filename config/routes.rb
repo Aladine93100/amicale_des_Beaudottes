@@ -1,6 +1,5 @@
 Apptest::Application.routes.draw do
 
-  get "exterieurs5/new"
 #  get "photos/create"
 #  resources :inquiries, :only => [:new, :create] do
 #  get 'thank_you', :on => :collection
