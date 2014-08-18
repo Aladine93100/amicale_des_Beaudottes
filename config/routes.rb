@@ -1,8 +1,8 @@
 Apptest::Application.routes.draw do
 
-#  get "photos/create"
-#  resources :inquiries, :only => [:new, :create] do
-#  get 'thank_you', :on => :collection
+ get "photos/create"
+ resources :inquiries, :only => [:new, :create] do
+ get 'thank_you', :on => :collection
 end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
