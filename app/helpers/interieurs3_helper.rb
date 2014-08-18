@@ -1,0 +1,2 @@
+module Interieurs3Helper
+end

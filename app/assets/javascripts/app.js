@@ -137,6 +137,40 @@ $('document').ready(function() {
 		})
 	})
 
+
+	$('#voie5').change(function(){
+		$.get('/interieurs3', {voie5: $(this).val()}, function(data) {
+			console.log(data)
+			if($('#numero')) {
+				$('#numero').remove()
+			}
+			
+			$('#voie5').after(data)
+		})
+	})
+
+	$('#voie6').change(function(){
+		$.get('/interieurs4', {voie6: $(this).val()}, function(data) {
+			console.log(data)
+			if($('#numero')) {
+				$('#numero').remove()
+			}
+			
+			$('#voie6').after(data)
+		})
+	})
+
+	$('#voie7').change(function(){
+		$.get('/interieurs5', {voie7: $(this).val()}, function(data) {
+			console.log(data)
+			if($('#numero')) {
+				$('#numero').remove()
+			}
+			
+			$('#voie7').after(data)
+		})
+	})
+
 	$('#voie3').change(function(){
 		$.get('/exterieurs1', {voie3: $(this).val()}, function(data) {
 			console.log(data)
@@ -157,6 +191,39 @@ $('document').ready(function() {
 			
 			$('#voie4').after(data)
 		})
+	})	
+
+	$('#voie8').change(function(){
+		$.get('/exterieurs3', {voie8: $(this).val()}, function(data) {
+			console.log(data)
+			if($('#numero')) {
+				$('#numero').remove()
+			}
+			
+			$('#voie8').after(data)
+		})
 	})
+
+	$('#voie9').change(function(){
+		$.get('/exterieurs4', {voie9: $(this).val()}, function(data) {
+			console.log(data)
+			if($('#numero')) {
+				$('#numero').remove()
+			}
+			
+			$('#voie9').after(data)
+		})
+	})	
+
+	$('#voie10').change(function(){
+		$.get('/exterieurs5', {voie10: $(this).val()}, function(data) {
+			console.log(data)
+			if($('#numero')) {
+				$('#numero').remove()
+			}
+			
+			$('#voie10').after(data)
+		})
+	})	
 
 });

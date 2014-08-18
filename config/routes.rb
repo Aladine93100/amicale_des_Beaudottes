@@ -1,4 +1,6 @@
 Apptest::Application.routes.draw do
+
+  get "exterieurs5/new"
   get "photos/create"
   resources :inquiries, :only => [:new, :create] do
   get 'thank_you', :on => :collection
@@ -10,8 +12,14 @@ end
   root 'inquiries#new'
 
   get '/appartements' => 'appartements#new'
+  get '/exterieurs5'  => 'exterieurs5#new'
+  get '/exterieurs4'  => 'exterieurs4#new'
+  get '/exterieurs3'  => 'exterieurs3#new'
   get '/exterieurs2'  => 'exterieurs2#new'
   get '/exterieurs1'  => 'exterieurs1#new'
+  get '/interieurs5'  => 'interieurs5#new'
+  get '/interieurs4'  => 'interieurs4#new'
+  get '/interieurs3'  => 'interieurs3#new'  
   get '/interieurs2'  => 'interieurs2#new'
   get '/interieurs1'  => 'interieurs1#new'
 

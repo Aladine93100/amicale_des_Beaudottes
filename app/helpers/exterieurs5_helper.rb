@@ -1,0 +1,2 @@
+module Exterieurs5Helper
+end

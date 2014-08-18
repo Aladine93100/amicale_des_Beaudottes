@@ -1,8 +1,8 @@
-<div class="container text-center">
-	<div class="menu1">
+<div class="container">
+	<div class="menu1 col-xs-offset-3 col-xs-6 col-xs-offset-3 col-sm-offset-3 col-sm-6 col-sm-offset-3 col-md-offset-3 col-md-6 col-md-offset-3">
 		<button type="button" name="logement" class="btn btn-default">Mon appartement</button></br>
 		<div class="row">
-			<div class="appartement text-center">
+			<div class="appartement col-xs-offset-3 col-xs-6 col-xs-offset-3 col-sm-offset-3 col-sm-6 col-sm-offset-3 col-md-offset-3 col-md-6 col-md-offset-3">
 				<button type="button" class="btn btn-default serrurerie"> Serrurerie </button> <button type="button" class="btn btn-default chauf-vent"> Chauffage/Ventilation</button>
 				<button type="button" class="btn btn-default plomb"> Eau/Plomberie</button>
 				<button type="button" class="btn btn-default isola"> Isolation/Fenêtre </button> <button type="button" class="btn btn-default revet"> Revêtement du sol</button>
@@ -15,17 +15,21 @@
 		</div>
 	</div>
 
-	<div class="menu2">
+	<div class="row">
+
+	<div class="menu2 col-xs-offset-3 col-xs-6 col-xs-offset-3 col-sm-offset-3 col-sm-6 col-sm-offset-3 col-md-offset-3 col-md-6 col-md-offset-3">
 		<button type="button" class="btn btn-default">Equipements collectifs</button>
 	</div>
 
 	<div class="row">
-		<div class="questionnaire2 text-center">
+		<div class="questionnaire2 col-xs-offset-3 col-xs-6 col-xs-offset-3 col-sm-offset-3 col-sm-6 col-sm-offset-3 col-md-offset-3 col-md-6 col-md-offset-3">
 			<button type="button" class="btn btn-default coll1"> Interphone </button> <button type="button" class="btn btn-default coll2"> Porte d'entrée </button>
 			<button type="button" class="btn btn-default coll3"> Ascenceur </button> <button type="button" class="btn btn-default coll4"> Eclairage dans le batîment </button>
 			<button type="button" class="btn btn-default coll5"> Boîte aux lettres </button>
 		</div>
 	</div>
+
+	<div class="questionnaire2-bis col-xs-offset-3 col-xs-6 col-xs-offset-3 col-sm-offset-3 col-sm-6 col-sm-offset-3 col-md-offset-3 col-md-6 col-md-offset-3">
 
 	<div id="coll1">
 		<%= render 'form_int1', :inquiry => @inquiry %>
@@ -36,46 +40,52 @@
 	</div>
 
 	<div id="coll3">
-		<%= render 'form_int1', :inquiry => @inquiry %>
+		<%= render 'form_int3', :inquiry => @inquiry %>
 	</div>
 
 	<div id="coll4">
-		<%= render 'form_int2', :inquiry => @inquiry %>
+		<%= render 'form_int4', :inquiry => @inquiry %>
 	</div>
 
 	<div id="coll5">
-		<%= render 'form_int2', :inquiry => @inquiry %>
-	</div>	
+		<%= render 'form_int5', :inquiry => @inquiry %>
+	</div>
 </div>
 
-<div class="menu3">
+</div>
+</div>
+
+<div class="menu3 col-xs-offset-3 col-xs-6 col-xs-offset-3 col-sm-offset-3 col-sm-6 col-sm-offset-3 col-md-offset-3 col-md-6 col-md-offset-3">
 	<button type="button" name="exterieur" class="btn btn-default"> Parties communes et propreté</button>
 </div>
 
-<div class="questionnaire3">
+<div class="questionnaire3 col-xs-offset-3 col-xs-6 col-xs-offset-3 col-sm-offset-3 col-sm-6 col-sm-offset-3 col-md-offset-3 col-md-6 col-md-offset-3">
 	<button type="button" class="btn btn-default immeuble"> Autours de l'immeuble </button> <button type="button" class="btn btn-default hall"> Hall </button>
 	<button type="button" class="btn btn-default escal-pal"> Escaliers/Paliers </button> <button type="button" class="btn btn-default poubelle"> Local à poubelles </button> 
 	<button type="button" class="btn btn-default enfant"> Espace enfant </button>
 </div>
+
+<div class="questionnaire-bis col-xs-6 col-sm-6 col-md-offset-2 col-md-6 col-md-offset-2">
 
 <div id="immeuble">
 	<%= render 'form_ext1', :inquiry => @inquiry %>
 </div>
 
 <div id="hall">
-	<%= render 'form_ext1', :inquiry => @inquiry %>
+	<%= render 'form_ext2', :inquiry => @inquiry %>
 </div>
 
 <div id="enfant">
-	<%= render 'form_ext1', :inquiry => @inquiry %>
+	<%= render 'form_ext3', :inquiry => @inquiry %>
 </div>
 
 <div id="escal-pal">
-	<%= render 'form_ext2', :inquiry => @inquiry %>
+	<%= render 'form_ext4', :inquiry => @inquiry %>
 </div>
 
 <div id="poubelle">
-	<%= render 'form_ext2', :inquiry => @inquiry %>
+	<%= render 'form_ext5', :inquiry => @inquiry %>
+</div>
 </div>
 </div>
 </div>

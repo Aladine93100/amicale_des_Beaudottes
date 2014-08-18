@@ -1,0 +1,2 @@
+module Interieurs5Helper
+end
