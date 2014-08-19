@@ -4,12 +4,18 @@ class Inquiry
   include ActiveModel::Validations
   include ActionView::Helpers::TextHelper
   
-  attr_accessor :name, :firstname, :telephone, :message, :voie
+  attr_accessor :name, :firstname, :appartement, :etage, :telephone, :message
   
   validates :name, 
             :presence => true
   
   validates :firstname,
+            :presence => true
+
+  validates :appartement,
+            :presence => true
+
+  validates :etage,
             :presence => true
 
   validates :telephone, 
@@ -32,8 +38,8 @@ end
   def deliver
     return false unless valid?
     Pony.mail({
-      :from => %("#{name} #{voie} "),
-      :subject => "Notifications de #{name}, #{firstname}, #{telephone}, #{voie}",
+      :from => %("#{name}"),
+      :subject => "Notifications de #{name}, #{firstname}, #{telephone}, #{appartement}, #{etage}",
       :body => message,
     })
   end
