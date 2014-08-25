@@ -5,7 +5,6 @@ body {
 }
 
 .container {
-	margin-top: 150px;
 }
 
 .appartement {
@@ -26,11 +25,6 @@ body {
 	text-align: center;
 }
 
-.btn {
-	margin-top: 20px;
-	padding: 20px;
-}
-
 .form-control {
 	text-align: center;
 	margin-right: 100px;
@@ -47,15 +41,13 @@ body {
 	color: green;
 	font-family: 'Orbitron', sans-serif, 10px;
 	margin-bottom: 50px;
+	margin-top: 20px;
+	padding: 50px;
 
 }
 
 #retour {
 	display: none;
-}
-
-#Menus {
-	margin-top: 170px;
 }
 
 .menu1 {
