@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-	margin-top: 150px;
+	margin-top: 200px;
 	margin-bottom: 0px;
 }
 
@@ -42,9 +42,10 @@ body {
 .btn {
 	color: green;
 	font-family: 'Orbitron', sans-serif, 10px;
+	font-size: 30px;
 	margin-bottom: 50px;
 	margin-top: 20px;
-	padding: 50px;
+	padding: 100px;
 
 }
 
