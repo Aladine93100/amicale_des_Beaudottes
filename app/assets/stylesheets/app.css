@@ -106,6 +106,27 @@ body {
 	font-family: 'Orbitron', sans-serif;
 }
 
+.coll1 {
+	margin-top: 20px;
+}
+
+.coll2 {
+	margin-top: 20px;
+}
+
+.coll3 {
+	margin-top: 20px;	
+}
+
+.coll4 {
+	margin-top: 20px;	
+}
+
+.coll5 {
+	margin-top: 20px;
+}
+
+
 #coll1 {
 	display: none;
 	margin-top: 20px;
@@ -127,6 +148,31 @@ body {
 }
 
 #coll5 {
+	display: none;
+	margin-top: 20px;
+}
+
+.poubelle {
+	display: none;
+	margin-top: 20px;
+}
+
+.immeuble {
+	display: none;
+	margin-top: 20px;
+}
+
+.enfant {
+	display: none;
+	margin-top: 20px;
+}
+
+.hall {
+	display: none;
+	margin-top: 20px;
+}
+
+.escal-pal {
 	display: none;
 	margin-top: 20px;
 }
