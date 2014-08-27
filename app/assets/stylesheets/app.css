@@ -32,12 +32,41 @@ body {
 	font-family: 'Orbitron', sans-serif, 10px;
 }
 
+/* bouton menu */
+
 .btn {
 	color: green;
 	font-family: 'Orbitron', sans-serif, 10px;
 	font-size: 50px;
 	padding: 100px;
+}
 
+.serrurerie {
+	margin-top: 20px;
+}
+
+.chauf-vent {
+	margin-top: 20px;
+}
+
+.plomb {
+	margin-top: 20px;
+}
+
+.isola {
+	margin-top: 20px;
+}
+
+.revet {
+	margin-top: 20px;
+}
+
+.cable {
+	margin-top: 20px;
+}
+
+.balcon {
+	margin-top: 20px;
 }
 
 #retour {
