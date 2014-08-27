@@ -99,7 +99,7 @@ $('document').ready(function() {
 
     $( '.hall' ).click(function() {
 		$( '#hall' ).show( 'slow' )
-		$( '.poubelle, .enfant, .escal-pal, .immeuble').hide( 'slow' )
+		$( '.poubelle, .enfant, .escal-pal, .immeuble, .hall, .menu3').hide( 'slow' )
 	});
 
 
