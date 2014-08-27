@@ -40,6 +40,11 @@ $('document').ready(function() {
 		$( '.questionnaire1, #retour, #precedent1' ).show( 'slow' )
 	});
 
+	$( '#precedent1').click(function() {
+		$('.appartement, .menu1').show( 'slow')
+		$('.questionnaire-bis').hide('slow')
+	});
+
 	$( '.menu2' ).click(function() {
 		$( '.menu1, .menu3' ).hide( 'slow' )
 		$( '.questionnaire2, #retour' ).show( 'slow' )
@@ -71,7 +76,7 @@ $('document').ready(function() {
 	});
 
 	$( '#precedent2').click(function() {
-		$('.questionnaire2').show( 'slow')
+		$('.questionnaire2, .menu2').show( 'slow')
 		$('.questionnaire2-bis').hide('slow')
 	});
 
@@ -106,7 +111,7 @@ $('document').ready(function() {
 	});
 
 	$( '#precedent3').click(function() {
-		$('.questionnaire3').show( 'slow')
+		$('.questionnaire3, .menu3').show( 'slow')
 		$('.questionnaire-bis').hide('slow')
 	});
 
