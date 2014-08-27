@@ -42,7 +42,7 @@ $('document').ready(function() {
 
 	$( '#precedent1').click(function() {
 		$('.appartement, .menu1').show( 'slow')
-		$('.questionnaire-bis').hide('slow')
+		$('.questionnaire1, #precedent1').hide('slow')
 	});
 
 	$( '.menu2' ).click(function() {
@@ -76,8 +76,8 @@ $('document').ready(function() {
 	});
 
 	$( '#precedent2').click(function() {
-		$('.questionnaire2, .menu2').show( 'slow')
-		$('.questionnaire2-bis').hide('slow')
+		$('.coll1, .coll2, .coll3, .coll4, .coll5, .menu2').show( 'slow')
+		$('#coll1, #coll2, #coll3, #coll4, #coll5, #precedent2').hide('slow')
 	});
 
 	$( '.menu3' ).click(function() {
@@ -111,11 +111,9 @@ $('document').ready(function() {
 	});
 
 	$( '#precedent3').click(function() {
-		$('.questionnaire3, .menu3').show( 'slow')
-		$('.questionnaire-bis').hide('slow')
+		$('.immeuble, .poubelle, .enfant, .escal-pal, .hall, .menu3').show( 'slow')
+		$('#hall, #escal-pal, #enfant, #poubelle, #immeuble, #precedent3').hide('slow')
 	});
-
-
 
 	$('#voie').change(function(){
 		$.get('/appartements', {voie: $(this).val()}, function(data) {
