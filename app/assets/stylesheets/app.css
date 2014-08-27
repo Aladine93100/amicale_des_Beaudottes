@@ -202,30 +202,36 @@ body {
 /* form */
 
 .name {
-	width: 50px;
+	width: 70px;
+	height: 80px;
 }
 
 .firstname {
-	width: 50px;
+	width: 70px;
+	height: 80px;
 }
 
 .appart {
-	width: 50px;
+	width: 70px;
+	height: 80px;
 }
 
 .etage {
-	width: 50px;
+	width: 70px;
+	height: 80px;
 }
 
 .form-control {
-	width: 50px;
+	width: 70px;
+	height: 80px;
 }
 
 .message {
-	width: 50px;
+	width: 70px;
+	height: 80px;
 }
 
 .tel {
-	width: 50px;
+	width: 70px;
+	height: 80px;
 }
-
