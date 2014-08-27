@@ -198,3 +198,34 @@ body {
 	color: #1AD600;
 	font-family: 'Orbitron', sans-serif, 10px;
 }
+
+/* form */
+
+.name {
+	width: 50px;
+}
+
+.firstname {
+	width: 50px;
+}
+
+.appart {
+	width: 50px;
+}
+
+.etage {
+	width: 50px;
+}
+
+.form-control {
+	width: 50px;
+}
+
+.message {
+	width: 50px;
+}
+
+.tel {
+	width: 50px;
+}
+

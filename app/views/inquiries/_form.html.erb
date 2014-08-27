@@ -1,22 +1,22 @@
 <div id="col-xs-12 col-sm-12 form">
 <%= form_for inquiry do |f| %>
 <input type="hidden" name="logement" id="logement">
-  <div>
+  <div class="name">
     <%= f.label :name %><br/>
     <%= f.text_field :name %>
   </div>
   
-  <div>
+  <div class="firstname">
     <%= f.label :firstname %><br/>
     <%= f.text_field :firstname %>
   </div>
 
-  <div>
+  <div class="appart">
     <%= f.label :appartement %><br/>
     <%= f.text_field :appartement %>
   </div>
 
-  <div>
+  <div class="etage">
     <%= f.label :etage %><br/>
     <%= f.text_field :etage %>
   </div>
@@ -30,12 +30,12 @@
           <option>Champlain</option>
   </select>
 
-  <div>
+  <div class="tel">
     <%= f.label :telephone %><br/>
     <%= f.text_field :telephone %>
   </div>
   
-  <div>
+  <div class="message">
     <%= f.label :message %><br/>
     <%= f.text_area :message %>
   </div>
