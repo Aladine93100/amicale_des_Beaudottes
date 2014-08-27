@@ -212,6 +212,10 @@ body {
 	height: 80px;
 }
 
+label {
+	padding: 70px;
+}
+
 .appart {
 	width: 70px;
 	height: 80px;
