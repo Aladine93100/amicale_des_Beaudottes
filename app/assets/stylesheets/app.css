@@ -15,6 +15,7 @@ body {
 .page-header {
 	text-align: center;
 	font-family: 'Orbitron', sans-serif;
+	font-size: 70px;
 	color: white;
 	background-color: rgba(0,0,0,0.5);
 	padding-top: 20px;
