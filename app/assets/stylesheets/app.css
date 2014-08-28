@@ -1,7 +1,6 @@
 body {
 	background-color: #0a1425;
 	font-family: 'Orbitron', sans-serif, 10px;
-	color: 
 }
 
 .container {
@@ -38,7 +37,7 @@ body {
 #form {
 	margin-top: 20px;
 	margin-bottom: 50px;
-	color: green;
+	color: #ffcc00;
 	font-family: 'Orbitron', sans-serif, 10px;
 }
 
