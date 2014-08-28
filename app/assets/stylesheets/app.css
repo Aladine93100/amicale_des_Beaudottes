@@ -76,30 +76,44 @@ body {
 
 .serrurerie {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .chauf-vent {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .plomb {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .isola {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .revet {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .cable {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .balcon {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 #retour {
@@ -122,20 +136,17 @@ body {
 .questionnaire1 {
 	display: none;
 	margin-top: 20px;
+
 }
 
 .questionnaire2 {
 	display: none;
 	margin-top: 20px;
-	background-color: #ffcc00;
-	color: rgba(0,0,0,0.5);
 }
 
 .questionnaire3 {
 	display: none;
 	margin-top: 20px;
-	background-color: #ffcc00;
-	color: rgba(0,0,0,0.5);
 }
 
 .intro2 {
@@ -145,22 +156,32 @@ body {
 
 .coll1 {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .coll2 {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .coll3 {
 	margin-top: 20px;	
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .coll4 {
 	margin-top: 20px;	
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .coll5 {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 
@@ -191,22 +212,32 @@ body {
 
 .poubelle {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .immeuble {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .enfant {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .hall {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .escal-pal {
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 #poubelle {
