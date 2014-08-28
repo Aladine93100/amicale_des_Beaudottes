@@ -14,6 +14,7 @@ body {
 
 .titre {
 	font-size: 70px;
+	color: #ffcc00;
 }
 
 #accueil {
@@ -56,15 +57,18 @@ body {
 }
 
 .btn-appart {
-	background-color: white;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
 }
 
 .btn-equipement {
-	background-color: white;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
 }
 
 .btn-communes {
-	background-color: white;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
 }
 
 .serrurerie {
