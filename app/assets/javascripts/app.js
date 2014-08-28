@@ -40,10 +40,10 @@ $('document').ready(function() {
 		$( '.questionnaire1, #retour, #precedent1' ).show( 'slow' )
 	});
 
-	$( '#precedent1').click(function() {
-		$('.appartement, .menu1').show( 'slow')
-		$('.questionnaire1, #precedent1').hide('slow')
-	});
+	// $( '#precedent1').click(function() {
+	// 	$('.appartement, .menu1').show( 'slow')
+	// 	$('.questionnaire1, #precedent1').hide('slow')
+	// });
 
 	$( '.menu2' ).click(function() {
 		$( '.menu1, .menu3' ).hide( 'slow' )
@@ -75,10 +75,10 @@ $('document').ready(function() {
 		$( '#coll2, #coll3, #coll1, #coll4, .questionnaire2' ).hide( 'slow' )
 	});
 
-	$( '#precedent2').click(function() {
-		$('.coll1, .coll2, .coll3, .coll4, .coll5, .menu2').show( 'slow')
-		$('#coll1, #coll2, #coll3, #coll4, #coll5, #precedent2').hide('slow')
-	});
+	// $( '#precedent2').click(function() {
+	// 	$('.coll1, .coll2, .coll3, .coll4, .coll5, .menu2').show( 'slow')
+	// 	$('#coll1, #coll2, #coll3, #coll4, #coll5, #precedent2').hide('slow')
+	// });
 
 	$( '.menu3' ).click(function() {
 		$( '.menu1, .menu2' ).hide( 'slow' )
@@ -110,10 +110,10 @@ $('document').ready(function() {
 		$( '.poubelle, .enfant, .escal-pal, .immeuble, .hall, .menu3').hide( 'slow' )
 	});
 
-	$( '#precedent3').click(function() {
-		$('.immeuble, .poubelle, .enfant, .escal-pal, .hall, .menu3').show( 'slow')
-		$('#hall, #escal-pal, #enfant, #poubelle, #immeuble, #precedent3').hide('slow')
-	});
+	// $( '#precedent3').click(function() {
+	// 	$('.immeuble, .poubelle, .enfant, .escal-pal, .hall, .menu3').show( 'slow')
+	// 	$('#hall, #escal-pal, #enfant, #poubelle, #immeuble, #precedent3').hide('slow')
+	// });
 
 	$('#voie').change(function(){
 		$.get('/appartements', {voie: $(this).val()}, function(data) {
