@@ -9,6 +9,8 @@ body {
 
 .appartement {
 	display: none;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .titre {
@@ -125,11 +127,15 @@ body {
 .questionnaire2 {
 	display: none;
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .questionnaire3 {
 	display: none;
 	margin-top: 20px;
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.5);
 }
 
 .intro2 {
