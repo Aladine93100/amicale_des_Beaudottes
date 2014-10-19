@@ -3,7 +3,9 @@ class Inquiry
   include ActiveModel::Conversion
   include ActiveModel::Validations
   include ActionView::Helpers::TextHelper
-  
+
+  attr_accessor :photo
+
   attr_accessor :name, :firstname, :appartement, :etage, :telephone, :message
   
   validates :name, 
@@ -41,6 +43,7 @@ end
       :from => %("#{name}"),
       :subject => "Notifications de #{name}, #{firstname}, #{telephone}, #{appartement}, #{etage}",
       :body => message,
+      :attachments => {photo.original_filename => File.read(photo.tempfile)}
     })
   end
       
