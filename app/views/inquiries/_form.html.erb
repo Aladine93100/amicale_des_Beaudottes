@@ -1,5 +1,5 @@
 <div id="form">
-<%= form_for inquiry do |f| %>
+<%= form_for inquiry, :html => { :multipart => true } do |f| %>
 <input type="hidden" name="logement" id="logement">
   <div>
     <%= f.label :name %><br/>
@@ -38,6 +38,7 @@
   <div>
     <%= f.label :message %><br/>
     <%= f.text_area :message %>
+    <%= f.file_field :photo %>
   </div>
   
   <div>
