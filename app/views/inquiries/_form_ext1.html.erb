@@ -1,5 +1,6 @@
 <div id="form">
-<%= form_for inquiry do |f| %>
+<%= form_for inquiry, :html => { :multipart => true } do |f| %>
+<input type="hidden" name="logement" id="logement">
   <div>
     <%= f.label :name %><br/>
     <%= f.text_field :name %>
@@ -19,8 +20,8 @@
     <%= f.label :etage %><br/>
     <%= f.text_field :etage %>
   </div>
-
-  <select id="voie3" class="form-control">
+    
+  <select id="voie3" class="form-control" name="voie">
           <option>Voie</option>
           <option>Francis Garnier</option>
           <option>Pérouse</option>
@@ -37,12 +38,12 @@
   <div>
     <%= f.label :message %><br/>
     <%= f.text_area :message %>
+    <%= f.file_field :photo %>
   </div>
   
   <div>
     <%= f.submit "Send" %>
   </div>
-  <input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraInput">
-
+ <!--  <input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraInput"> -->
 <% end %>
 </div>
