@@ -44,27 +44,30 @@ body {
 /* bouton menu */
 
 .btn {
+	background-color: #0a1425;
 	color: black;
 	font-family: 'Orbitron', sans-serif, 10px;
 	font-size: 50px;
-	padding: 100px;
 	border-radius: 20px;
+	text-align: center;
 }
 
 #precedent1, #precedent2, #precedent3 {
 	display: none;
 }
 
+.glyphicon-film {
+	margin-left: 20px;
+}
+
 .btn-appart {
-	background-color: rgba(0,0,0,0.5);
 	color: white;
+	padding: 20px;
 }
 
 .btn-equipement {
-	background-color: rgba(0,0,0,0.5);
 	color: white;
-	margin-right: 20px;
-	padding-right: 40px;
+	padding: 20px;
 }
 
 .btn-communes {

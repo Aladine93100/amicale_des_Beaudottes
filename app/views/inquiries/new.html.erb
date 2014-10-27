@@ -1,7 +1,8 @@
 <div class="container">
 	<div class="row">
 		<div class="menu1 text-center">
-			<button type="button" class="btn btn-default btn-appart">Mon appartement</button></br>
+
+			<button type="button" class="btn btn-default btn-appart"><span class="glyphicon glyphicon-camera"></span><span class="glyphicon glyphicon-film"></span></button></br>
 		</div>
 		<div class="row">
 			<div class="appartement text-center">
@@ -19,14 +20,11 @@
 		<div class="questionnaire1 text-center">
 			<%= render 'form', :inquiry => @inquiry %>
 		</div>
-	</div>
 
-	<div class="row">
 		<div class="menu2 text-center">
-			<button type="button" class="btn btn-default btn-equipement">Equipements collectifs</button>
+			<button type="button" class="btn btn-default btn-equipement"><span class="glyphicon glyphicon-pencil"></span></button>
 		</div>
-	</div>
-	<div class="row">
+
 		<div class="questionnaire2 text-center">
 			<button type="button" class="btn btn-default coll4"> Eclairage dans le batîment </button>
 			<button type="button" class="btn btn-default coll5"> Boîte aux lettres </button>
@@ -34,11 +32,9 @@
 			<button type="button" class="btn btn-default coll1"> Interphone </button>
 			<button type="button" class="btn btn-default coll3"> Ascenceur </button>
 		</div>
-	</div>
+	
 			<button id="precedent2">Précédent</button>
 
-
-	<div class="row">
 		<div class="questionnaire2-bis text-center">
 
 			<div id="coll1">
@@ -60,26 +56,19 @@
 			<div id="coll5">
 				<%= render 'form_int5', :inquiry => @inquiry %>
 			</div>
-		</div>
-
-		<div class="row">
+		<!-- 
 			<div class="menu3 text-center">
 				<button type="button" class="btn btn-default btn-communes"> Parties communes</button>
 			</div>
-		</div>
 
-		<div class="row">
 			<div class="questionnaire3 text-center">
 				<button type="button" class="btn btn-default immeuble"> Autours de l'immeuble </button>
 				<button type="button" class="btn btn-default escal-pal"> Escaliers/Paliers </button> <button type="button" class="btn btn-default poubelle"> Local à poubelles </button> 
 				<button type="button" class="btn btn-default enfant"> Espace enfant </button>
 				<button type="button" class="btn btn-default hall"> Hall </button>
 			</div>
-		</div>
 				<button id="precedent3">Précédent</button>
 
-
-		<div class="row">
 			<div class="questionnaire-bis text-center">
 				<div id="immeuble">
 					<%= render 'form_ext1', :inquiry => @inquiry %>
@@ -100,7 +89,6 @@
 				<div id="poubelle">
 					<%= render 'form_ext5', :inquiry => @inquiry %>
 				</div>
-			</div>
-		</div>
+			</div> -->
 	</div>
 </div>
