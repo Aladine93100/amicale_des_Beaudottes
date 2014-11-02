@@ -1,49 +1,9 @@
 $('document').ready(function() {
 
 	$( '.menu1' ).click(function() {
-		$( '.menu2, .menu3' ).hide( 'slow' )
-		$( '.appartement, #retour' ).show( 'slow' )
+		$( '.menu2' ).hide( 'slow' )
+		$( '.questionnaire1' ).show( 'slow' )
 	});
-
-	$( '.serrurerie' ).click(function() {
-		$( '.chauf-vent, .isola, .plomb, .revet, .cable, .balcon' ).hide( 'slow' )
-		$( '.questionnaire1, #retour' ).show( 'slow' )
-	});
-
-	$( '.chauf-vent' ).click(function() {
-		$( '.serrurerie, .isola, .plomb, .revet, .cable, .balcon' ).hide( 'slow' )
-		$( '.questionnaire1, #retour' ).show( 'slow' )
-	});
-
-	$( '.isola' ).click(function() {
-		$( '.chauf-vent, .serrurerie, .plomb, .revet, .cable, .balcon' ).hide( 'slow' )
-		$( '.questionnaire1, #retour' ).show( 'slow' )
-	});
-
-	$( '.plomb' ).click(function() {
-		$( '.chauf-vent, .isola, .serrurerie, .revet, .cable, .balcon' ).hide( 'slow' )
-		$( '.questionnaire1, #retour' ).show( 'slow' )
-	});
-
-	$( '.revet' ).click(function() {
-		$( '.chauf-vent, .isola, .plomb, .serrurerie, .cable, .balcon' ).hide( 'slow' )
-		$( '.questionnaire1, #retour' ).show( 'slow' )
-	});
-
-	$( '.cable' ).click(function() {
-		$( '.chauf-vent, .isola, .plomb, .revet, .serrurerie, .balcon' ).hide( 'slow' )
-		$( '.questionnaire1, #retour' ).show( 'slow' )
-	});
-
-	$( '.balcon' ).click(function() {
-		$( '.chauf-vent, .isola, .plomb, .revet, .cable, .serrurerie' ).hide( 'slow' )
-		$( '.questionnaire1, #retour' ).show( 'slow' )
-	});
-
-	// $( '#precedent1').click(function() {
-	// 	$('.appartement, .menu1').show( 'slow')
-	// 	$('.questionnaire1, #precedent1').hide('slow')
-	// });
 
 	$( '.menu2' ).click(function() {
 		$( '.menu1, .menu3' ).hide( 'slow' )

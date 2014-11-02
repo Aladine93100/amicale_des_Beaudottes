@@ -1,94 +1,42 @@
 <div class="container">
 	<div class="row">
 		<div class="menu1 text-center">
-
-			<button type="button" class="btn btn-default btn-appart"><span class="glyphicon glyphicon-camera"></span><span class="glyphicon glyphicon-film"></span></button></br>
+			<button type="button" class="btn btn-default btn-appart"><span class="glyphicon glyphicon-camera"></span><span class="glyphicon glyphicon-video"></span></button></br>
 		</div>
-		<div class="row">
-			<div class="appartement text-center">
-				<button type="button" class="btn btn-default chauf-vent"> Chauffage/Ventilation</button>
-		        <button type="button" class="btn btn-default revet"> Revêtement du sol</button>
-		        <button type="button" class="btn btn-default isola"> Isolation/Fenêtre </button> 		
-		        <button type="button" class="btn btn-default plomb"> Eau/Plomberie</button>
-				<button type="button" class="btn btn-default serrurerie"> Serrurerie </button> 
-				<button type="button" class="btn btn-default cable"> Câble TV </button> 
-				<button type="button" class="btn btn-default balcon"> Balcon </button>
-			</div>
-		</div>
-		<button id="precedent1">Précédent</button>
-
+		
 		<div class="questionnaire1 text-center">
 			<%= render 'form', :inquiry => @inquiry %>
 		</div>
+	</div>
 
+	<div class="row">
 		<div class="menu2 text-center">
-			<button type="button" class="btn btn-default btn-equipement"><span class="glyphicon glyphicon-pencil"></span></button>
+			<button type="button" class="btn btn-default btn-equipement"> <span class="glyphicon glyphicon-pencil"></span> </button>
 		</div>
+	</div>
 
-		<div class="questionnaire2 text-center">
-			<button type="button" class="btn btn-default coll4"> Eclairage dans le batîment </button>
-			<button type="button" class="btn btn-default coll5"> Boîte aux lettres </button>
-			<button type="button" class="btn btn-default coll2"> Porte d'entrée </button>
-			<button type="button" class="btn btn-default coll1"> Interphone </button>
-			<button type="button" class="btn btn-default coll3"> Ascenceur </button>
-		</div>
-	
-			<button id="precedent2">Précédent</button>
-
+	<div class="row">
 		<div class="questionnaire2-bis text-center">
 
 			<div id="coll1">
 				<%= render 'form_int1', :inquiry => @inquiry %>
 			</div>
 
-			<div id="coll2">
-				<%= render 'form_int2', :inquiry => @inquiry %>
-			</div>
+		</div>
 
-			<div id="coll3">
-				<%= render 'form_int3', :inquiry => @inquiry %>
-			</div>
-
-			<div id="coll4">
-				<%= render 'form_int4', :inquiry => @inquiry %>
-			</div>
-
-			<div id="coll5">
-				<%= render 'form_int5', :inquiry => @inquiry %>
-			</div>
-		<!-- 
+		<!-- <div class="row">
 			<div class="menu3 text-center">
 				<button type="button" class="btn btn-default btn-communes"> Parties communes</button>
 			</div>
+		</div>
 
-			<div class="questionnaire3 text-center">
-				<button type="button" class="btn btn-default immeuble"> Autours de l'immeuble </button>
-				<button type="button" class="btn btn-default escal-pal"> Escaliers/Paliers </button> <button type="button" class="btn btn-default poubelle"> Local à poubelles </button> 
-				<button type="button" class="btn btn-default enfant"> Espace enfant </button>
-				<button type="button" class="btn btn-default hall"> Hall </button>
-			</div>
-				<button id="precedent3">Précédent</button>
 
+		<div class="row">
 			<div class="questionnaire-bis text-center">
 				<div id="immeuble">
 					<%= render 'form_ext1', :inquiry => @inquiry %>
 				</div>
-
-				<div id="hall">
-					<%= render 'form_ext2', :inquiry => @inquiry %>
-				</div>
-
-				<div id="enfant">
-					<%= render 'form_ext3', :inquiry => @inquiry %>
-				</div>
-
-				<div id="escal-pal">
-					<%= render 'form_ext4', :inquiry => @inquiry %>
-				</div>
-
-				<div id="poubelle">
-					<%= render 'form_ext5', :inquiry => @inquiry %>
-				</div>
-			</div> -->
+			</div>
+		</div> -->
 	</div>
 </div>
