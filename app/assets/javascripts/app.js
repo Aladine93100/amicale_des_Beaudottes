@@ -5,6 +5,7 @@ $('document').ready(function() {
 		$( '.appartement, #retour' ).show( 'slow' )
 	});
 
+
 	$( '.serrurerie' ).click(function() {
 		$( '.chauf-vent, .isola, .plomb, .revet, .cable, .balcon' ).hide( 'slow' )
 		$( '.questionnaire1, #retour' ).show( 'slow' )
@@ -235,6 +236,5 @@ $('document').ready(function() {
 			
 			$('#voie10').after(data)
 		})
-	})	
-
+	})
 });
