@@ -42,6 +42,11 @@ body {
 	font-size: 30px;
 }
 
+#voie {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
 /* bouton menu */
 
 .btn {
