@@ -43,8 +43,7 @@ body {
 }
 
 #voie {
-	margin-left: 150px;
-	margin-right: 150px;
+	width: 70px;
 }
 
 /* bouton menu */
