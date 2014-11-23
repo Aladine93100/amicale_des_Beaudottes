@@ -1,54 +1,55 @@
 <div class="container">
 	<div class="row">
-		<div class="col-md-offset-3 col-md-6 col-xs-offset-3 col-xs-6 col-sm-offset-3 col-sm-6 menu1">
+		<div class="col-md-offset-2 col-md-8 col-md-offset-2 col-xs-offset-2 col-xs-8 col-xs-offset-2 col-sm-offset-2 col-sm-8 col-sm-offset-2 menu1">
 			<button type="button" class="btn btn-default btn-appart"><span class="glyphicon glyphicon-home"></span><p>Mon appartement</p></button></br>
 		</div>
+	</div>
 
-			<div class="appartement">
-				<div class="row">
-				<div class="col-md-3">
+	<div class="appartement">
+		<div class="row">
+			<div class="col-md-3">
 				<button type="button" class="btn btn-default chauf-vent"> Chauffage/Ventilation</button>
-			    </div>
-			    <div class="col-md-3">
-		        <button type="button" class="btn btn-default revet"> Revêtement du sol</button>
-		        </div>
-		        <div class="col-md-3">
-		        <button type="button" class="btn btn-default isola"> Isolation/Fenêtre </button>
-		        </div>
-		        </div>
-		        <div class="row"> 
-		        <div class="col-md-3">		
-		        <button type="button" class="btn btn-default plomb"> Eau/Plomberie</button>
-		        </div>
-		        <div class="col-md-3">
+			</div>
+			<div class="col-md-3">
+				<button type="button" class="btn btn-default revet"> Revêtement du sol</button>
+			</div>
+			<div class="col-md-3">
+				<button type="button" class="btn btn-default isola"> Isolation/Fenêtre </button>
+			</div>
+		</div>
+		<div class="row"> 
+			<div class="col-md-3">		
+				<button type="button" class="btn btn-default plomb"> Eau/Plomberie</button>
+			</div>
+			<div class="col-md-3">
 				<button type="button" class="btn btn-default serrurerie"> Serrurerie </button>
-				</div>
-				<div class="col-md-3"> 
+			</div>
+			<div class="col-md-3"> 
 				<button type="button" class="btn btn-default cable"> Câble TV </button> 
-				</div>
-				<button type="button" class="btn btn-default balcon"> Balcon </button>
 			</div>
-		</div>
-		
-		<div class="questionnaire1 text-center">
-			<%= render 'form', :inquiry => @inquiry %>
+			<button type="button" class="btn btn-default balcon"> Balcon </button>
 		</div>
 	</div>
 
-	<div class="row">
-		<div class="col-md-offset-3 col-md-6 col-md-offset-3 col-xs-offset-3 col-xs-6 col-xs-offset-3 menu2">
-			<button type="button" class="btn btn-default btn-equipement"><span class="glyphicon glyphicon-stats"></span><br>Equipements collectifs</button>
-		</div>
+	<div class="questionnaire1 text-center">
+		<%= render 'form', :inquiry => @inquiry %>
 	</div>
+</div>
 
-	<div class="row">
-		<div class="questionnaire2 text-center">
+<div class="row">
+	<div class="col-md-offset-3 col-md-6 col-md-offset-3 col-xs-offset-3 col-xs-6 col-xs-offset-3 menu2">
+		<button type="button" class="btn btn-default btn-equipement"><span class="glyphicon glyphicon-stats"></span><br>Equipements collectifs</button>
+	</div>
+</div>
 
-			<div id="coll1">
-				<%= render 'form_int1', :inquiry => @inquiry %>
-			</div>
+<div class="row">
+	<div class="questionnaire2 text-center">
 
+		<div id="coll1">
+			<%= render 'form_int1', :inquiry => @inquiry %>
 		</div>
+
+	</div>
 
 		<!-- <div class="row">
 			<div class="menu3 text-center">
