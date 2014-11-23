@@ -46,8 +46,8 @@ $('document').ready(function() {
 	// });
 
 	$( '.menu2' ).click(function() {
-		$( '.menu1, .menu3' ).hide( 'slow' )
-		$( '.questionnaire2, #retour' ).show( 'slow' )
+		$( '.menu1' ).hide( 'slow' )
+		$( '.questionnaire2' ).show( 'slow' )
 	});
 
 	$( '.coll1' ).click(function() {
