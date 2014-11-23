@@ -61,7 +61,6 @@ body {
 }
 
 .btn-appart {
-<<<<<<< HEAD
 	background-color: rgba(0,0,0,0.5);
 	color: #ffcc00;
 }
@@ -71,7 +70,6 @@ body {
 	color: #ffcc00;
 	margin-right: 20px;
 	padding-right: 40px;
-=======
 	color: white;
 	padding: 20px;
 	margin-top: 150px;
@@ -80,7 +78,6 @@ body {
 .btn-equipement {
 	color: white;
 	padding: 20px;
->>>>>>> a2f122a33e30ace9c907362ff62b41b6cecdcdb4
 }
 
 .btn-communes {

@@ -5,8 +5,6 @@ $('document').ready(function() {
 		$( '.questionnaire1' ).show( 'slow' )
 	});
 
-<<<<<<< HEAD
-
 	$( '.serrurerie' ).click(function() {
 		$( '.chauf-vent, .isola, .plomb, .revet, .cable, .balcon' ).hide( 'slow' )
 		$( '.questionnaire1, #retour' ).show( 'slow' )
@@ -47,8 +45,6 @@ $('document').ready(function() {
 	// 	$('.questionnaire1, #precedent1').hide('slow')
 	// });
 
-=======
->>>>>>> a2f122a33e30ace9c907362ff62b41b6cecdcdb4
 	$( '.menu2' ).click(function() {
 		$( '.menu1, .menu3' ).hide( 'slow' )
 		$( '.questionnaire2, #retour' ).show( 'slow' )
