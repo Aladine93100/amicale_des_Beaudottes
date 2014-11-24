@@ -42,10 +42,14 @@ body {
 	font-size: 30px;
 }
 
-#voie {
+#voie, #voie1, {
 	width: 150px;
 	margin-left: 300px;
 	font-size: 30px;
+}
+
+#photo {
+	font-size: 10px;
 }
 
 /* bouton menu */
