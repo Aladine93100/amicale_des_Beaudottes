@@ -44,7 +44,8 @@ body {
 
 #voie {
 	width: 90px;
-	margin-left: 250px;
+	margin-left: 300px;
+	font-size: 30px;
 }
 
 /* bouton menu */
