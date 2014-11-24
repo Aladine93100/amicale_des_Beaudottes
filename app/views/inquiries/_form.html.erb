@@ -38,19 +38,17 @@
   <div>
     <%= f.label :message %><br/>
     <%= f.text_area :message %></br>
-  </br>
   </div>
 
   <h1>Votre photo / vidéo</h1>
 
-  <span class="glyphicon glyphicon-camera"></span> <span class="glyphicon glyphicon-video"></span>
-
-  <div class="photo text-center">
+  <span class="glyphicon glyphicon-camera"></span>
+  <div>
     <%= f.file_field :photo %>
   </div>
   </br>
   <div>
-    <%= f.submit "Send" %>
+    <%= f.submit "Envoyer" %>
   </div>
  <!--  <input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraInput"> -->
 <% end %>
