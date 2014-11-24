@@ -1,6 +1,6 @@
 <div id="form">
-<%= form_for inquiry, :html => { :multipart => true } do |f| %>
-<input type="hidden" name="logement" id="logement">
+  <%= form_for inquiry, :html => { :multipart => true } do |f| %>
+  <input type="hidden" name="logement" id="logement">
   <div>
     <%= f.label :name %><br/>
     <%= f.text_field :name %>
@@ -20,14 +20,14 @@
     <%= f.label :etage %><br/>
     <%= f.text_field :etage %>
   </div>
-    
+  
   <select id="voie" class="form-control" name="voie">
-          <option>Voie</option>
-          <option>Francis Garnier</option>
-          <option>Pérouse</option>
-          <option>Bougainville</option>
-          <option>Jacques Cartier</option>
-          <option>Champlain</option>
+    <option>Voie</option>
+    <option>Francis Garnier</option>
+    <option>Pérouse</option>
+    <option>Bougainville</option>
+    <option>Jacques Cartier</option>
+    <option>Champlain</option>
   </select>
 
   <div>
@@ -39,17 +39,18 @@
     <%= f.label :message %><br/>
     <%= f.text_area :message %></br>
   </div>
+</br>
+<h1>Votre photo / vidéo</h1>
 
-  <h1>Votre photo / vidéo</h1>
+<span class="glyphicon glyphicon-camera"></span>
 
-  <span class="glyphicon glyphicon-camera"></span>
-  <div>
-    <%= f.file_field :photo %>
-  </div>
-  </br>
-  <div>
-    <%= f.submit "Envoyer" %>
-  </div>
- <!--  <input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraInput"> -->
+<div>
+  <%= f.file_field :photo %>
+</div>
+</br>
+<div>
+  <%= f.submit "Envoyer" %>
+</div>
+<!--  <input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraInput"> -->
 <% end %>
 </div>
