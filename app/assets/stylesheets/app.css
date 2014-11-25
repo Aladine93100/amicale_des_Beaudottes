@@ -137,6 +137,11 @@ body {
 	color: #ffcc00;
 }
 
+.retour-end {
+	background-color: rgba(0,0,0,0.5);
+	color: #ffcc00;
+}
+
 .questionnaire1 {
 	display: none;
 	margin-top: 20px;
