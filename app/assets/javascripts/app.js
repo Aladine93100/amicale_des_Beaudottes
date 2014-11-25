@@ -12,7 +12,7 @@ $('document').ready(function() {
 
 	$( '.retour').click(function() {
 	 	$('.menu1, .menu2').show( 'slow')
-		$('.questionnaire1, .questionnaire2, .retour,').hide('slow')
+		$('.questionnaire1, .questionnaire2, .retour').hide('slow')
 	});
 
 	$( '.retour-end').click(function() {
