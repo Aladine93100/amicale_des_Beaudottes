@@ -80,8 +80,8 @@ body {
 	margin-top: 250px;
 }
 
-.btn-communes {
-	background-color: rgba(0,0,0,0.5);
+.btn-incendie {
+	background-color: red;
 	color: #ffcc00;
 }
 
@@ -132,7 +132,6 @@ body {
 
 .menu2 {
 	margin-top: 10px;
-	background-color: red;
 }
 
 .retour {
