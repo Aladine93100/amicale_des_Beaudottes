@@ -8,9 +8,7 @@ end
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'inquiries#home'
-
-  get '/home' => 'inquiries#home'
+  root 'inquiries#new'
 
   get '/appartements' => 'appartements#new'
   get '/exterieurs5'  => 'exterieurs5#new'
