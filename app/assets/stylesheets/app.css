@@ -124,10 +124,6 @@ body {
 	color: rgba(0,0,0,0.5);
 }
 
-#retour {
-	display: none;
-}
-
 .menu1 {
 }
 
@@ -137,8 +133,8 @@ body {
 
 .retour {
 	display: none;
-	margin-top: 20px;
-	margin-bottom: 50px;
+	background-color: rgba(0,0,0,0.5);
+	color: #ffcc00;
 }
 
 .questionnaire1 {
