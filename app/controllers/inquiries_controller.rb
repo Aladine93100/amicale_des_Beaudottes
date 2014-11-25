@@ -3,6 +3,11 @@ class InquiriesController < ApplicationController
 		@inquiry = Inquiry.new
 	end
 
+	def home
+	end
+		
+	end
+
 	def create
 
 		# name = params[:cameraInput].original_filename
