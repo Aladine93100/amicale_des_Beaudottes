@@ -48,11 +48,6 @@ body {
 	font-size: 30px;
 }
 
-.photo {
-	font-size: 30px;
-	margin-left: 50px;
-}
-
 /* bouton menu */
 
 .btn {
@@ -138,7 +133,7 @@ body {
 }
 
 .menu2 {
-	margin-top: 20px;
+	margin-top: 250px;
 }
 
 .menu3 {

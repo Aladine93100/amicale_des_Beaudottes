@@ -1,11 +1,50 @@
 <div class="container">
+
 	<div class="row">
+		<div class="col-md-offset-2 col-md-8 col-md-offset-2 col-xs-offset-2 col-xs-8 col-xs-offset-2 col-sm-offset-2 col-sm-8 col-sm-offset-2 menu2">
+			<button type="button" class="btn btn-default btn-equipement"><span class="glyphicon glyphicon-eye-open"></span><br>SIGNALEMENT</button>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="questionnaire2 text-center">
+
+			<div>
+				<%= render 'form_int1', :inquiry => @inquiry %>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+		<!-- <div class="row">
+			<div class="menu3 text-center">
+				<button type="button" class="btn btn-default btn-communes"><span class="glyphicon glyphicon-screenshot"></span><br> Parties communes</button>
+			</div>
+		</div>
+		<div class="row">
 		<div class="col-md-offset-2 col-md-8 col-md-offset-2 col-xs-offset-2 col-xs-8 col-xs-offset-2 col-sm-offset-2 col-sm-8 col-sm-offset-2 menu1">
 			<button type="button" class="btn btn-default btn-appart"><span class="glyphicon glyphicon-home"></span><p>Mon appartement</p></button></br>
 		</div>
 	</div>
 
-	<div class="appartement">
+	<div class="questionnaire1 text-center">
+		<%= render 'form', :inquiry => @inquiry %>
+	</div>
+
+
+		<div class="row">
+			<div class="questionnaire-bis text-center">
+				<div id="immeuble">
+					<%= render 'form_ext1', :inquiry => @inquiry %>
+				</div>
+			</div>
+		</div> -->
+<!-- 			<div class="appartement">
 		<div class="row">
 			<div class="col-md-3">
 				<button type="button" class="btn btn-default chauf-vent"> Chauffage/Ventilation</button>
@@ -27,43 +66,4 @@
 			<div class="col-md-3"> 
 				<button type="button" class="btn btn-default cable"> Câble TV </button> 
 			</div>
-			<button type="button" class="btn btn-default balcon"> Balcon </button>
-		</div>
-	</div>
-
-	<div class="questionnaire1 text-center">
-		<%= render 'form', :inquiry => @inquiry %>
-	</div>
-</div>
-
-<div class="row">
-	<div class="col-md-offset-2 col-md-8 col-md-offset-2 col-xs-offset-2 col-xs-8 col-xs-offset-2 col-sm-offset-2 col-sm-8 col-sm-offset-2 menu2">
-		<button type="button" class="btn btn-default btn-equipement"><span class="glyphicon glyphicon-stats"></span><br>Equipements collectifs</button>
-	</div>
-</div>
-
-<div class="row">
-	<div class="questionnaire2 text-center">
-
-		<div>
-			<%= render 'form_int1', :inquiry => @inquiry %>
-		</div>
-
-	</div>
-
-		<!-- <div class="row">
-			<div class="menu3 text-center">
-				<button type="button" class="btn btn-default btn-communes"><span class="glyphicon glyphicon-screenshot"></span><br> Parties communes</button>
-			</div>
-		</div>
-
-
-		<div class="row">
-			<div class="questionnaire-bis text-center">
-				<div id="immeuble">
-					<%= render 'form_ext1', :inquiry => @inquiry %>
-				</div>
-			</div>
-		</div> -->
-	</div>
-</div>
+			<button type="button" class="btn btn-default balcon"> Balcon </button> -->
