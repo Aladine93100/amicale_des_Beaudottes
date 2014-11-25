@@ -2,12 +2,17 @@ $('document').ready(function() {
 
 	$( '.menu1' ).click(function() {
 		$( '.menu2' ).hide( 'slow' )
-		$( '.questionnaire1' ).show( 'slow' )
+		$( '.questionnaire1, .retour' ).show( 'slow' )
 	});
 
 	$( '.menu2' ).click(function() {
 		$( '.menu1' ).hide( 'slow' )
-		$( '.questionnaire2' ).show( 'slow' )
+		$( '.questionnaire2, .retour' ).show( 'slow' )
+	});
+
+	$( '.retour').click(function() {
+	 	$('.menu1, .menu2').show( 'slow')
+		$('.questionnaire1, .questionnaire2').hide('slow')
 	});
 
 	$( '.serrurerie' ).click(function() {
