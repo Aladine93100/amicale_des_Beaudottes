@@ -5,6 +5,11 @@ $('document').ready(function() {
 		$( '.questionnaire1' ).show( 'slow' )
 	});
 
+	$( '.menu2' ).click(function() {
+		$( '.menu1' ).hide( 'slow' )
+		$( '.questionnaire2' ).show( 'slow' )
+	});
+
 	$( '.serrurerie' ).click(function() {
 		$( '.chauf-vent, .isola, .plomb, .revet, .cable, .balcon' ).hide( 'slow' )
 		$( '.questionnaire1, #retour' ).show( 'slow' )
@@ -45,10 +50,6 @@ $('document').ready(function() {
 	// 	$('.questionnaire1, #precedent1').hide('slow')
 	// });
 
-	$( '.menu2' ).click(function() {
-		$( '.menu1' ).hide( 'slow' )
-		$( '.questionnaire2' ).show( 'slow' )
-	});
 
 	$( '.coll1' ).click(function() {
 		$( '#coll1' ).show( 'slow' )
